@@ -47,10 +47,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/vendor/firmware/nvram.txt_ES01_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES01_semco_b0 \
     vendor/samsung/y2s/proprietary/vendor/firmware/nvram.txt_ES02_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES02_semco_b0 \
     vendor/samsung/y2s/proprietary/vendor/firmware/nvram.txt_ES03_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES03_semco_b0 \
+    vendor/samsung/y2s/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
     vendor/samsung/y2s/proprietary/vendor/firmware/setfile_2la.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2la.bin \
     vendor/samsung/y2s/proprietary/vendor/firmware/setfile_2ld.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2ld.bin \
     vendor/samsung/y2s/proprietary/vendor/firmware/setfile_3j1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3j1.bin \
     vendor/samsung/y2s/proprietary/vendor/firmware/setfile_gw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gw2.bin \
+    vendor/samsung/y2s/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
+    vendor/samsung/y2s/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-0000534b504d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0000534b504d \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0050524f4341 \
@@ -62,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-505256544545 \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-534258505859:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-534258505859 \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-5345435f4652:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-5345435f4652 \
+    vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-53454d655345:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-53454d655345 \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-54412d48444d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-54412d48444d \
     vendor/samsung/y2s/proprietary/vendor/tee/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-657365636f6d \
     vendor/samsung/y2s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476
@@ -82,8 +87,11 @@ PRODUCT_PACKAGES += \
     libiu456_datapath_processor \
     libqfp_sensortest \
     libsynaFpSensorTestNwd \
+    libteecl \
     libwrappergps \
+    sensors.grip \
     sensors.sensorhub \
     HotwordEnrollmentOKGoogleEx3CORTEXM4 \
     HotwordEnrollmentXGoogleEx3CORTEXM4 \
-    gpsd
+    gpsd \
+    tzdaemon
