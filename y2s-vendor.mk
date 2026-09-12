@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/y2s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476
 
 PRODUCT_PACKAGES += \
-    libswdap \
     camera.exynos990 \
     libTOFProc_interface \
     libbauthserver \
@@ -93,6 +92,7 @@ PRODUCT_PACKAGES += \
     libwrappergps \
     sensors.grip \
     sensors.sensorhub \
+    libswdap \
     HotwordEnrollmentOKGoogleEx3CORTEXM4 \
     HotwordEnrollmentXGoogleEx3CORTEXM4 \
     gpsd \
